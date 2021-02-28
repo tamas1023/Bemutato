@@ -81,7 +81,9 @@ a:link {
     height:100%;
     font-size: 25px;
   }
- 
+.aside h2{
+    font-size: 29px;
+}
 .row::after {
     content: "";
     clear: both;
