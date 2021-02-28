@@ -158,3 +158,12 @@ footer{
 .under{
 text-decoration: underline;
 }
+.kep{
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(sakk3.jpg);
+    
+}
