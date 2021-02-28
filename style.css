@@ -1,6 +1,13 @@
+body{
+    background-color: rgba(15, 3, 187, 0.918);
+    color: white;
+    font-size: 20px;
+}
 li{
     float: left;
     padding: 10px;
+    list-style: none;
+    margin-right: 10px;
 }
 #j{
     float: right;
@@ -8,6 +15,81 @@ li{
 #b{
     float: left;
 }
-div{
+.teszt{
     border: 1px solid black;
 }
+a::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+a{
+    color: #ffffff;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    
+    padding-left: 10px;
+    
+}
+  
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    
+    background-color: rgb(30, 245, 155);
+    color: #ffffff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+background-color: rgb(8, 146, 89);
+}
+a:link {
+   text-decoration: none;
+}
+.header{
+    background-image: linear-gradient(to right, rgba(83, 110, 20, 0.966), rgba(93, 131, 5, 0.753));
+    color: #ffffff;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    padding-top: 0px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    float: right;
+    width: 120px;
+    height: 220px;;
+  }
+ 
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+img{
+    border-radius: 10%;
+    float: left;
+}
+#pog{
+    float: left;
+    width: 60%;
+}
+
+  
+  
+ 
+  
+ 
+
+  
+
+  
+
