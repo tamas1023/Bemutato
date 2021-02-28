@@ -93,6 +93,10 @@ a:link {
 img{
     border-radius: 10%;
     float: left;
+    opacity: 1;
+}
+img:hover{
+    opacity: 0.8;
 }
 #pog{
     float: left;
