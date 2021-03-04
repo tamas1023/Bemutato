@@ -3,7 +3,7 @@ body{
     background-image: url(/hatter.jpg);
     background-size: 100%;
     color: rgb(240, 230, 230);
-    font-size: 25px;
+    font-size:1.5rem;
 }
 li{
     float: left;
@@ -69,6 +69,7 @@ a:link {
     color: #ffffff;
     padding-bottom: 10px;
     padding-top: 10px;
+    width: 100%;
 }
 
 .aside {
@@ -117,6 +118,7 @@ img:hover{
 
   @media only screen and (min-width: 600px) {
     /* For tablets: */
+    
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
     .col-s-3 {width: 25%;}
@@ -129,7 +131,6 @@ img:hover{
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
-    
   }
   @media only screen and (min-width: 855px) {
     /* For desktop: */
@@ -153,7 +154,9 @@ img:hover{
     .egesz{
         width: 70%;
     }
+    
   }
+  
 .egesz{
 
     float: left;
