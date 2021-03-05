@@ -1,2 +1,2 @@
 # Bemutatooldal
-https://tamas1023.github.io/Bemutato/index.html
+https://tamas1023.github.io/Bemutato/
